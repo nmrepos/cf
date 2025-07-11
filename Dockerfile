@@ -21,6 +21,6 @@ RUN npm install
 RUN npm i -g pm2
 COPY . .
 
-EXPOSE 3000
+EXPOSE 10000
 
 CMD ["pm2-runtime", "src/index.js"]
